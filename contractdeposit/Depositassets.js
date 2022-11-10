@@ -10,12 +10,12 @@ import {
     Button,
   } from 'react-native';
   
-  import WalletConnectProvider from '@walletconnect/react-native-dapp';
-  import AsyncStorage from '@react-native-async-storage/async-storage';
+  //import WalletConnectProvider from '@walletconnect/react-native-dapp';
+  //import AsyncStorage from '@react-native-async-storage/async-storage';
   
 import { ContractAbi , ContractAbiMatic } from "./abi.js";
 import {contractAddress , contractAddressMatic,polygonProvider} from "./contractAddress";
-import Walletconnection from './Walletconnection.js';
+//import Walletconnection from './Walletconnection.js';
 const SCHEME_FROM_APP_JSON = 'walletconnect-ecomobooster';
 
 function Depositassets() {
@@ -37,7 +37,7 @@ const data = async () => {
     <StatusBar barStyle={isDarkMode ? 'light-content' : 'dark-content'} />
   
       <Button onPress={() => data()} title="Press Me" />
-      <WalletConnectProvider
+      {/* <WalletConnectProvider
       redirectUrl={
         Platform.OS === 'web'
           ? window.location.origin
@@ -49,7 +49,7 @@ const data = async () => {
       <View style={styles.container}>
         <Walletconnection />
       </View>
-    </WalletConnectProvider>
+    </WalletConnectProvider> */}
   </SafeAreaView>
   )
 }

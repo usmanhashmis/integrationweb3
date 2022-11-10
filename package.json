@@ -13,6 +13,7 @@
     "clear": "cd android && gradlew clean && cd ../"
   },
   "dependencies": {
+    "@react-native-async-storage/async-storage": "^1.17.10",
     "@tradle/react-native-http": "^2.0.1",
     "browserify-zlib": "^0.1.4",
     "dns.js": "^1.0.1",
@@ -27,6 +28,7 @@
     "react-native-level-fs": "^3.0.1",
     "react-native-os": "^1.2.6",
     "react-native-randombytes": "^3.6.1",
+    "react-native-svg": "^13.5.0",
     "react-native-tcp": "^3.3.2",
     "react-native-udp": "^2.7.0",
     "readable-stream": "^1.0.33",

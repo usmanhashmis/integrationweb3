@@ -25,7 +25,7 @@ import Depositassets from './contractdeposit/Depositassets';
 //hashmi
 ///usman hasnededejheebhfebhfh
 
-const App: () => Node = () => {
+const App = () => {
 
   return (
     <Depositassets/>
