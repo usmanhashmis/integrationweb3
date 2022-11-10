@@ -34,7 +34,7 @@ const web3 = new Web3(
     'https://rinkeby.infura.io/v3/f3d114839d6b4445b71455d8153e8d57',
   ),
 );
-// ali khsrathaj
+// ali
 const Section = ({children, title}): Node => {
   const isDarkMode = useColorScheme() === 'dark';
   return (
