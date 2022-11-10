@@ -9,6 +9,7 @@ import {
     View,
     Button,
   } from 'react-native';
+  
 function Depositassets() {
     const isDarkMode = useColorScheme() === 'dark';
     const Web3 = require('web3');
@@ -28,7 +29,7 @@ const data = async () => {
     console.log('dd', await contract.methods.balance().call());
     alert()
   };
-  
+
   return (    
     <SafeAreaView >
     <StatusBar barStyle={isDarkMode ? 'light-content' : 'dark-content'} />
