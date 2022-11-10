@@ -20,7 +20,7 @@ import {
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
 
-import Depositassets from './Depositassets';
+import Depositassets from './contractdeposit/Depositassets';
 
 //hashmi
 ///usman hasnededejheebhfebhfh
